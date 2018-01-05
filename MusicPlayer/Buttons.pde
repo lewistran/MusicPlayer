@@ -20,25 +20,19 @@ fill(boarder);
    boarder = gray;
   } // End of IF for HE
   
-  if (mouseX > 350 && mouseX < 450 && mouseY > 470 && mouseY < 580) { //play
-   } else {
-  boarder = gray;
-  } // End of IF for HE
-  
- if (mouseX > 690 && mouseX < 790 && mouseY > 500 && mouseY < 550){ // pause
+   if (mouseX > 690 && mouseX < 790 && mouseY > 500 && mouseY < 550){ // pause
   } else {
-    boarder = gray;
+    boarder = blue;
   } //End of IF for HE
+  
+  if (mouseX > 350 && mouseX < 450 && mouseY > 470 && mouseY < 580) { //play
+  } // End of IF for HE
   
   
  if (mouseX > 0 && mouseX < 200 && mouseY > 0 && mouseY < 450) { // prev
-   } else {
-     boarder = gray;
   } // End of IF for HE
   
   if (mouseX > 620 && mouseX < 800 && mouseY > 0 && mouseY < 450) { //next
-    } else { 
-      boarder = gray;
   } // End of IF for HE
   
   
