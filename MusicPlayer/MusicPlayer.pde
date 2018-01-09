@@ -8,10 +8,11 @@
 *Play to start the music player, press play button to play music on the music player.
 *Player plays the music, if change, press next button and play button to change song.
 *Player won't go to prev song if you start the music player and press the prev button on song 1. 
-*if current song is in the middle, pressing prev button is allowed. EXAMPLE: if song is in the middle in song 5, prev button works
+*If current song is in the middle, pressing prev button is allowed. EXAMPLE: if song is in the middle in song 5, prev button works.
 *Press Pause button to stop the music, play button will not pause.
 *Pressing the pause button will make song stop and will redo the song to play it over again.
-*If finished, press the off button.
+*If finished song, you can play it again.
+*Press the off button when finished.
 *Chillax, Relax, and enjoy the music..
 //INSTRUCTIONS////
 */
@@ -85,22 +86,22 @@ song[13] = new SoundFile(this,"Spongebob.mp3");
     
 //Music Player Controls layout
   ellipse(400, 530, 100+10, 100+10); //for play button circle
-   triangle(90,180,5,220,90,260); //fast backward #1
+  triangle(90,180,5,220,90,260); //fast backward #1
   triangle(90,220,170,180,170,260); //fast backward #2
   triangle(710,260,710,180,795,220); //fast forward #1
-   triangle(710,220,630,180,630,260); // fast forward #2
-   triangle(440,535,370,500,370,570); // play button
+  triangle(710,220,630,180,630,260); // fast forward #2
+  triangle(440,535,370,500,370,570); // play button
 }
   
 void images(){
     pic[0]= loadImage("MusicEmoji.jpg"); //894 x 894
     image(pic[0],180,50,440,400);
     
-     pic[1]= loadImage("Pauses.png"); // 512 x 512 
+    pic[1]= loadImage("Pauses.png"); // 512 x 512 
     image(pic[1],690,515,100,50); 
     
-     pic[2]= loadImage("off.png"); // 269 x 269
-   image(pic[2],10,520,100,50); 
+    pic[2]= loadImage("off.png"); // 269 x 269
+    image(pic[2],10,520,100,50); 
    
 }
 
