@@ -125,7 +125,7 @@ void draw (){
    rect(620,0,180,450); // next song
    rect(180,0,440,50); //caption
    ellipse(400, 530, 100+10, 100+10); //circle to play
-   rect(690,515,100,50); //Pause
+   rect(690,520,100,50); //Pause
 
   
 //Color for SMALLER 2-d shapes
@@ -164,7 +164,7 @@ void draw (){
 */
    //image 1
    pic[1]= loadImage("Pauses.png"); // 512 x 512 thumbnail #1
-    image(pic[1],690,515,100,50); 
+    image(pic[1],690,520,100,50); 
     
   //image 2
    pic[2]= loadImage("off.png"); //269 x 269 thumbnail #2
