@@ -20,7 +20,7 @@ fill(boarder);
    boarder = gray;
   } // End of IF for HE
   
-   if (mouseX > 690 && mouseX < 790 && mouseY > 500 && mouseY < 550){ // pause
+   if (mouseX > 690 && mouseX < 790 && mouseY > 520 && mouseY < 570){ // pause
   } else {
     boarder = blue;
   } //End of IF for HE
@@ -58,7 +58,7 @@ void mousePressed (){
 }
 
 // Pause/Redo Button
- if (mouseX > 690 && mouseX < 790 && mouseY > 500 && mouseY < 550) { // Pause Button
+ if (mouseX > 690 && mouseX < 790 && mouseY > 520 && mouseY < 570) { // Pause Button
   println("Stopping Song" + indexSong + ".");
   song[indexSong].stop(); //Pause will stop song and redo 
 }
